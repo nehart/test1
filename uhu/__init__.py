@@ -8,6 +8,8 @@ import socket
 import time
 import re
 
+from uhu.mod01 import *
+
 
 
 
@@ -18,6 +20,7 @@ import re
 def main():
     
     print("Hallo\n")
+    hallo()
     user = input("Username: ")
     password = getpass.getpass(prompt='geheim: ', stream=None)
     
