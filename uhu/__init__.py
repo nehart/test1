@@ -21,7 +21,7 @@ def main():
     user = input("Username: ")
     password = getpass.getpass(prompt='geheim: ', stream=None)
     
-    print(user + "   " + password + "\n")
+    print(user + "   " + password)
 
 ###################################################################
 # start
