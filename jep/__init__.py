@@ -2,6 +2,8 @@
 # Test
 #
 # written by Norbert EHART
+# import wasweiß denn ich!
+#
 #
 
 import getpass
@@ -21,12 +23,12 @@ from jep.mod01 import *
 ###################################################################
 
 def main():
-    
+
     print("Hallo\n")
     hallo()
     user = input("Username: ")
     password = getpass.getpass(prompt='geheim: ', stream=None)
-    
+
     print(user + "   " + password)
 
 
